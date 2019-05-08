@@ -11,7 +11,7 @@ body{
 
  }
 .presentation{
-    background-image: url(/portada.jpg);
+    background-image: url(/src/assets/portada.jpg);
     width: 100%;
     height: 500px;
     max-width:100%;
@@ -41,7 +41,7 @@ max-height:100%;
 }
 
 .javasc{
-    background-image: url(/assets/91de50e59c.png);
+    background-image: url(/src/assets/91de50e59c.png);
     width: 90px;
     height: 95px;
     background-size: cover;

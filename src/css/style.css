@@ -62,16 +62,26 @@ max-height:100%;
     margin-left: .5em;
 }
 
+/*Tarjetas de habilidades y herramientas*/
+.fontCard{
+  color:  rgb(241,211,188);
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+
+}
 
 /*media objects*/
 .block {
-    background: #333;
+  background-color:  rgb(5,11,43);
     padding: 1rem;
     max-width: 20rem;
     margin: 0 0 1rem 0;
+   
   }
   .block td {
+    background-color:  rgb(212,23,63);
     vertical-align: top;
+  
   }
   .block img {
     width: 75px;

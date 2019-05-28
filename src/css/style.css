@@ -2,6 +2,10 @@ body{
     background-color: rgb(5,11,43);
  }
 
+h3,h4{
+    color: rgb(212,23,63);
+}
+
  h5,h6{
      color: rgb(241,211,188)
  }
@@ -9,6 +13,10 @@ body{
  .inline{
      display: inline-block;
 
+ }
+
+ .margin_left{
+     margin-left: 2em;
  }
 .presentation{
     background-image: url(https://raw.githubusercontent.com/JazminDominguez/Portafolio/master/src/assets/portada.jpg);
@@ -31,7 +39,7 @@ max-height:100%;
     position: relative;
     margin-top: 10px;
     display: inline-block;
-    top: -200px;
+    top: -5px;
     margin: 3em;
     text-align: center;
     
@@ -53,6 +61,27 @@ max-height:100%;
     background-repeat: no-repeat;
     margin-left: .5em;
 }
+
+
+/*media objects*/
+.block {
+    background: #333;
+    padding: 1rem;
+    max-width: 20rem;
+    margin: 0 0 1rem 0;
+  }
+  .block td {
+    vertical-align: top;
+  }
+  .block img {
+    width: 75px;
+    margin: 0 1rem 0 0;
+  }
+  .block h2 {
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+  }
+  
 
 /* animaciones con sus key frames*/
 

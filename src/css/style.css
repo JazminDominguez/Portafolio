@@ -29,22 +29,60 @@ max-height:100%;
 }
 .about_me{
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
     display: inline-block;
+    top: -200px;
+    margin: 3em;
+    text-align: center;
     
 }
 
-.front{
-    width: 300px;
+.breve_descripcion{
+    width: 250px;
     display: inline-block;
-
+    margin: 1em;
+ position: relative;
 }
 
-.javasc{
-    background-image: url(https://raw.githubusercontent.com/JazminDominguez/Portafolio/master/src/assets/91de50e59c.png);
-    width: 90px;
-    height: 95px;
+.jaz_photo{
+    background-image: url(/src/assets/jazcv.jpg);
+    width: 120px;
+    height: 170px;
     background-size: cover;
     margin-top: 75px;
+    background-repeat: no-repeat;
+    margin-left: .5em;
 }
 
+/* animaciones con sus key frames*/
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

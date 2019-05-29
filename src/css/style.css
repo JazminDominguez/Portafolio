@@ -72,14 +72,15 @@ max-height:100%;
 
 /*media objects*/
 .block {
-  background-color:  rgb(5,11,43);
+  background: rgb(5,11,46);
+  background: linear-gradient(153deg, rgba(5,11,46,1) 50%, rgba(212,23,63,1) 100%);
     padding: 1rem;
     max-width: 20rem;
     margin: 0 0 1rem 0;
    
   }
   .block td {
-    background-color:  rgb(212,23,63);
+
     vertical-align: top;
   
   }
@@ -100,6 +101,9 @@ max-height:100%;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+
+
+/* cards de proyectos*/
 @-webkit-keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;

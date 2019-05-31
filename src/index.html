@@ -10,18 +10,18 @@
   <!-- Compiled and minified CSS materialize-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Iconos -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a245afc5ad.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Fuentes -->
   <!-- Estilos -->
   <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 </head>
 
 <body>
 
+  <header>
   <div class="presentation">
     <nav class="nav-1">
       <div class="nav-wrapper">
@@ -33,14 +33,19 @@
       </div>
     </nav>
   </div>
+</header>
 
   <section class="about_me">
-    <h3 id="titulos" class="tracking-in-expand">About Me</h3>
+
+    <h3 id="titulos" class="tracking-in-expand">Sobre mi...</h3>
   </section>
-  <!--  <div class="jaz_photo inline"></div>-->
-  <div class="container-fluid tracking-in-expand">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col margin_left">
+        <div class="col s12 m6 l3 center-align">
+        <img class="jaaz" src="/src/assets/jaaaz.png">
+        </div>
+
+      <div class="col s12 m6 l3">
         <article class="breve_descripcion">
           <h3>Soy Jaz,</h3>
           <h6> Joven apasionada por el autoaprendizaje.
@@ -49,7 +54,7 @@
         </article>
 
       </div>
-      <div class="col margin_left">
+      <div class="col s12 m6 l3 margin_left">
         <article class="breve_descripcion">
           <h4>Front-end Developer</h4>
           <h6> Egresada de Laboratoria. Bootcamp que identifica, capacita y coloca a
@@ -59,7 +64,7 @@
         </article>
 
       </div>
-      <div class="col margin_left">
+      <div class="col s12 m6 l3 margin_left">
         <article class="breve_descripcion">
           <h4>Ingeniera Industrial</h4>
           <h6> Licenciatura en ingeniería industrial, cursada en el Instituto Tecnológico de Veracruz. </h6>
@@ -70,72 +75,94 @@
   </div>
 
 
+ <!--proyectos-->
+ <section class="about_me">
+    <h3 id="titulos" class="tracking-in-expand">Proyectos</h3>
+  </section>
 
-  <h3 class="margin_left">Proyectos</h3>
   <div class="row">
-    <div class="col s6 m5 l3">
-      <div class="card small">
-        <div class="card-image">
+      <div class="col s12 m6 l3">
 
-          <img class="activator"
-            src="https://raw.githubusercontent.com/JazminDominguez/Portafolio/master/src/assets/image_microsoft-surfacebook-front.png">
-          <span class="card-title"></span>
-        </div>
-        <div class="card-content">
-          <p>Punto Steam</p>
-          <p>Red social dirigida a la conección de la comunidad STEAM</p>
-
-
-        </div>
-        <div class="card-action">
-          <a href="https://jaurinu.github.io/CDMX007-social-network/src/">Open
-            Project</a>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Punto Steam<i class="material-icons right">close</i></span>
-          <h7>Es una red social que surge como iniciativa para integrar a docentes, investigadores o
-            profesionales de centros educativos interesados en la cultura STEAM y MAKER para que puedan
-            crear una comunidad interdisciplinar que comparta estrategias, eventos, procesos de
-            enseñanza-aprendizaje e interrelacione contenidos de las materias de ciencias, tecnología,
-            ingeniería, matemáticas y arte</h7>
-
-        </div>
+    <div class="card  transparent">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="/src/assets/image_microsoft-surfacebook-front.png">
       </div>
-    </div>
-
-
-
-    <div class="col s6 m5 l3">
-      <div class="card large">
-        <div class="card-image">
-          <img class="activator" src="./assets/image_iphone8plusgold_portrait.png">
-          <span class="card-title"></span>
-        </div>
-        <div class="card-content">
-          <p>CataLOL: League of Legends Catalogue.</p>
-          <p>CataLOL es una aplicación disponible en Web y móviles que permite la navegación de los datos
-            de los personajes, permite aplicar filtros de búsqueda y mostrar la información más
-            relevante.</p>
-        </div>
-        <div class="card-action">
-          <a href="https://jazmindominguez.github.io/cdmx-2019-01-bc-core-data-lovers/src/#">Open
-            Project</a>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">CataLOL<i class="material-icons right">close</i></span>
-          <h7>League of Legends es un juego de plataforma en línea con formato multijugador. Fue
-            desarrollado por Riot Games en octubre del 2009, al día de hoy su comunidad ha crecido
-            expandiéndose alrededor del mundo. La particularidad de League of Legends (LOL) es su
-            complejidad en el modo de juego y sus personajes, incluyendo más de cien personajes en su
-            catálogo.</h7>
-
-          <p>CataLOL es una aplicación disponible en Web y móviles que permite la navegación de los datos
-            de los personajes, permite aplicar filtros de búsqueda y mostrar la información más
-            relevante.</p>
-        </div>
+      <div class="card-content">
+        <span class="card-title activator orange-text text-lighten-3">Punto STEAM<i class="material-icons right">more_vert</i></span>
+        <a href="https://jaurinu.github.io/CDMX007-social-network/src/"><i class="fas fa-eye fa-2x"></i></a>
+        <a href="https://github.com/JazminDominguez/CDMX007-social-network"><i class="fab fa-github fa-2x"></i></a>
+   
+      </div>
+      <div class="card-reveal indigo darken-4 orange-text text-lighten-3">
+        <span class="card-title orange-text text-lighten-3"><i class="material-icons right">close</i>Punto STEAM</span>
+        <p>Red social dirigida a la conexión
+          de la comunidad STEAM</p>
+          <p> FIREBASE / FIRESTORE / JS / HTML5 / CSS3 /</p>
       </div>
     </div>
   </div>
+
+  <div class="col s12 m6 l3">
+      <div class="card  transparent">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="/src/assets/mexico_city.png">
+  </div>
+  <div class="card-content">
+    <span class="card-title activator orange-text text-lighten-3">Mexico City Proyect<i class="material-icons right">more_vert</i></span>
+    <a href="https://pau-za.github.io/mexico-city/index.html"><i class="fas fa-eye fa-2x"></i></a>
+    <a href="https://github.com/Pau-za/mexico-city"><i class="fab fa-github fa-2x"></i></a>
+  </div>
+  <div class="card-reveal indigo darken-4 orange-text text-lighten-3">
+    <span class="card-title orange-text text-lighten-3"><i class="material-icons right">close</i>Punto STEAM</span>
+    <p>Página creada en equipo para promoción de la cultura mexicana a estudiantes Estadounidenses.</p>
+      <p> / JS / HTML5 / CSS3 /</p>
+  </div>
+</div>
+</div>
+
+    <div class="col s12 m6 l3">
+          <div class="card  transparent">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="/src/assets/image_iphone8plusgold_portrait.png">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator orange-text text-lighten-3">CataLOL<i class="material-icons right">more_vert</i></span>
+        <a href="https://jazmindominguez.github.io/cdmx-2019-01-bc-core-data-lovers/src/"><i class="fas fa-eye fa-2x"></i></a>
+        <a href="https://github.com/JazminDominguez/cdmx-2019-01-bc-core-data-lovers"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <div class="card-reveal indigo darken-4 orange-text text-lighten-3">
+        <span class="card-title orange-text text-lighten-3"><i class="material-icons right">close</i>Punto STEAM</span>
+        <p>App destinada a móviles que permite la navegación de los datos
+          de los personajes de League of Legends, permite aplicar filtros de búsqueda y mostrar la información más
+          relevante.</p>
+          <p> / JS / HTML5 / CSS3 /</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="col s12 m6 l3">
+        <div class="card  transparent">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="/src/assets/burguer_queen.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator orange-text text-lighten-3">Burger Queen<i class="material-icons right">more_vert</i></span>
+      <a href="https://burger-queen-2992c.firebaseapp.com/"><i class="fas fa-eye fa-2x"></i></a>
+      <a href="https://github.com/JazminDominguez/CDMX007-fe-burger-queen"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+    <div class="card-reveal indigo darken-4 orange-text text-lighten-3">
+      <span class="card-title orange-text text-lighten-3"><i class="material-icons right">close</i>Burger Queen</span>
+      <p>Proyecto diseñado para tablet para una cadena de comida rápida que facilitara 
+        la toma de pedidos y la interacción entre el mesero y la interfaz</p>
+        <p> Firebase/ React / JS / HTML5 / CSS3 /</p>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+
+  
   <!--habilidades y herramientas-->
   <section class="about_me">
     <h3 id="titulos" class="tracking-in-expand">Habilidades & Herramientas</h3>
@@ -207,14 +234,38 @@
 
 
     <!--termina habilidades y herramientas-->
+  
+ <!--área de contacto-->
+
+ <footer class="page-footer gradient">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contacto</h5>
+          <p class="grey-text text-lighten-4">¡Ponte en contacto conmigo! <br> Encuentrame en mis redes sociales o a través de correo electrónico.</p>
+        </div>
+        <div class="col l6 s12">
+            <h5 class="white-text">Contacto</h5>
+            <a class="waves-effect waves-light btn pink darken-3"><i class="material-icons left">description</i>Descarga CV</a>
+          </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <a href="https://twitter.com/JazDP1"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://github.com/JazminDominguez"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/jazmin-dominguez-764040164/"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="mailto:j.dgez.p@gmail.com?subject=subject&cc=cc@example.com"><i class="far fa-envelope fa-2x"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2019 Jaz Dgez
+      </div>
+    </div>
+  </footer>
+
     
-
-
-    <h5>Contact</h5>
-    <section class="contac_me">
-      <div id="linkedin" class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="es_ES"
-        data-type="horizontal" data-theme="dark" data-vanity="jazdominguez"><a class="LI-simple-link"
-          href='https://mx.linkedin.com/in/jazdominguez?trk=profile-badge'>JAZMIN DOMINGUEZ</a></div>
 
 
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

@@ -6,10 +6,15 @@ h3,h4{
     color: rgb(212,23,63);
 }
 
+i.fab, i.fas, i.far {
+  color: rgb(212,23,63);
+}
  h5,h6{
      color: rgb(241,211,188)
  }
-
+.fuente{
+  color: rgb(241,211,188)
+}
  .inline{
      display: inline-block;
 
@@ -44,6 +49,10 @@ max-height:100%;
     text-align: center;
     
 }
+.jaaz{
+  height: 300px;
+  width: 300px ;
+}
 
 .breve_descripcion{
     width: 250px;
@@ -70,6 +79,10 @@ max-height:100%;
 
 }
 
+.gradient{
+  background: linear-gradient(153deg, rgba(5,11,46,1) 50%, rgba(212,23,63,1) 100%);
+
+}
 /*media objects*/
 .block {
   background: rgb(5,11,46);

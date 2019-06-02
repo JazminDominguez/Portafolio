@@ -22,22 +22,36 @@
 <body>
 
   <header>
-  <div class="presentation">
-    <nav class="nav-1">
-      <div class="nav-wrapper">
+  <div class="presentation"></div>
+    <nav id="desktop-nav" class="nav-1 ">
+      <div class="nav-wrapper  container borderXwidth">
         <ul id="nav-mobile" class="navegation">
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="illustrations.html">illustrations</a></li>
+          <li class="borderXwidth"><a href="#aboutMe">Sobre mi</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#skills">Herramientas & Habilidades</a></li>
+          <li><a href="#contactMe">Contacto</a></li>
         </ul>
       </div>
     </nav>
-  </div>
+
+    
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a href="#aboutMe" class="btn-floating red"><i class="material-icons">person</i></a></li>
+    <li><a href="#projects" class="btn-floating yellow darken-1"><i class="material-icons">work</i></a></li>
+    <li><a href="#skills" class="btn-floating green"><i class="material-icons">developer_mode</i></a></li>
+    <li><a href="#contactMe" class="btn-floating blue"><i class="material-icons">email</i></a></li>
+  </ul>
+</div>
+      
 </header>
 
-  <section class="about_me">
-
-    <h3 id="titulos" class="tracking-in-expand">Sobre mi...</h3>
+<!--ABOUT ME-->
+  <section id="aboutMe" class="about_me">
+    <h3 id="titulos" class="tracking-in-expand">Sobre mi.</h3>
   </section>
   <div class="container-fluid">
     <div class="row">
@@ -76,7 +90,7 @@
 
 
  <!--proyectos-->
- <section class="about_me">
+ <section id="projects" class="about_me">
     <h3 id="titulos" class="tracking-in-expand">Proyectos</h3>
   </section>
 
@@ -164,10 +178,10 @@
 
   
   <!--habilidades y herramientas-->
-  <section class="about_me">
+  <section id="skills" class="about_me">
     <h3 id="titulos" class="tracking-in-expand">Habilidades & Herramientas</h3>
   </section>
-  <div class="container-fluid tracking-in-expand">
+  <div class="container-fluid">
     <div class="row">
       <div class="col margin_left">
         <table class="block">
@@ -177,7 +191,6 @@
             </td>
             <td>
               <span class="fontCard">JavaScript</span>
-              <h6>Lenguaje de programación manejado para el desarrollo de páginas web y webApps.</h6>
           </tr>
         </table>
       </div>
@@ -190,7 +203,6 @@
             </td>
             <td>
               <span class="fontCard">HTML5</span>
-              <h6>Elemento de construcción para páginas web con los elementos y comportamientos más recientes. </h6>
             </td>
           </tr>
         </table>
@@ -204,12 +216,6 @@
             </td>
             <td>
               <span class="fontCard">CSS3</span>
-              <h6>Herramienta que define la estética de un sitio web
-                <br>
-                <br>
-                <br>
-                <br>
-              </h6>
             </td>
           </tr>
         </table>
@@ -223,12 +229,37 @@
               </td>
               <td>
                 <span class="fontCard">Firebase</span>
-                <h6>Plataforma ubicada en la nube que usa un conjunto de herramientas para la creación y sincronización de proyectos.</h6>
               </td>
             </tr>
           </table>
         </div>
 
+        <div class="col margin_left">
+          <table class="block">
+            <tr>
+              <td>
+                <img src="https://img.icons8.com/color/96/000000/bootstrap.png">              </td>
+              <td>
+                <span class="fontCard">Bootstrap &nbsp;</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="col margin_left">
+          <table class="block">
+            <tr>
+              <td>
+                <img src="/src/assets/materialize-logo-0FCAD8A6F8-seeklogo.com.png">              </td>
+              <td>
+                <span class="fontCard">Materialize
+                  <br>
+                  <br>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
 
     </div>
 
@@ -237,23 +268,26 @@
   
  <!--área de contacto-->
 
- <footer class="page-footer gradient">
+ <footer id="contactMe" class="page-footer gradient">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Contacto</h5>
-          <p class="grey-text text-lighten-4">¡Ponte en contacto conmigo! <br> Encuentrame en mis redes sociales o a través de correo electrónico.</p>
+          <p class="grey-text text-lighten-4"> Estoy buscando colaborar contigo <br> ¡Ponte en contacto! <br> Encuentrame en mis redes sociales o a través de correo electrónico.</p>
         </div>
         <div class="col l6 s12">
-            <h5 class="white-text">Contacto</h5>
-            <a class="waves-effect waves-light btn pink darken-3"><i class="material-icons left">description</i>Descarga CV</a>
+            <h5 class="white-text">CV</h5>
+            <p class="grey-text text-lighten-4">Puedes leer y descargar mi curriculum dando click en el siguiente botón.</p>
+
+            <a href="https://drive.google.com/file/d/1zCCT82y38zQQv0WoPT1ulR3njweYvsVd/view?usp=sharing" class="waves-effect waves-light btn pink darken-3"><i class="material-icons left">description</i>Descarga CV</a>
           </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <a href="https://twitter.com/JazDP1"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="https://github.com/JazminDominguez"><i class="fab fa-github fa-2x"></i></a>
-          <a href="https://www.linkedin.com/in/jazmin-dominguez-764040164/"><i class="fab fa-linkedin fa-2x"></i></a>
-          <a href="mailto:j.dgez.p@gmail.com?subject=subject&cc=cc@example.com"><i class="far fa-envelope fa-2x"></i></a>
+
+        <div class="col l7 s10">
+          <h5 class="white-text">Sites</h5>
+          <a href="https://twitter.com/JazDP1"><i class="fab fa-twitter fa-2x"></i>Twitter</a>
+          <a href="https://github.com/JazminDominguez"><i class="fab fa-github fa-2x"></i>Github</a>
+          <a href="https://www.linkedin.com/in/jazmin-dominguez-764040164/"><i class="fab fa-linkedin fa-2x"></i>LinkedIn</a>
+          <a href="mailto:j.dgez.p@gmail.com?subject=subject&cc=cc@example.com"><i class="far fa-envelope fa-2x"></i>E-mail</a>
 
         </div>
       </div>
